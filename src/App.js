@@ -23,13 +23,13 @@ const [contactSelected, setContactSelected] = useState(false);
         setContactSelected={setContactSelected}
       ></Nav>
        {!contactSelected ? (
-  <>
-    <Gallery currentCategory={currentCategory}></Gallery>
-    <About></About>
-  </>
-) : (
-    <Contact></Contact>
-  )}
+            <>
+              <Gallery currentCategory={currentCategory}></Gallery>
+              <About></About>
+            </>
+        ) : (
+              <Contact></Contact>
+         )}
     </div>
   );
 }

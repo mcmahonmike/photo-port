@@ -8,7 +8,7 @@ function Nav(props) {
     setCurrentCategory,
     currentCategory,
     contactSelected,
-    setContactSelected
+    setContactSelected,
   } = props;
 
   useEffect(() => {
